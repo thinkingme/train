@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/bjmashbing-sysio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/META-INF/bjmashbing-sysio.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIO.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bjmashbing-sysio" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../ProgramFiles/Apache/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\ProgramFiles\Apache\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2D6ny87mqXgwOtBU7FrZXab5qJH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\IDEAworkspace\train\test\src\main\java\cn\thinkingme\train\test" />
+      <recent name="D:\workspace\IDEAworkspace\train\JVM-master" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.thinkingme.train.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.T03________VolatileReference2">
+    <configuration name="AffiliateTransactionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.AffiliateTransactionUtil" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.thinkingme.train.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.aes.Hs" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.thinkingme.train.test.aes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T03________VolatileReference2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T03________VolatileReference2" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.c_012_Volatile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.User" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.thinkingme.train.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.shua.数据结构._BitMap" />
+      <module name="shua" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.thinkingme.train.shua.数据结构.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Hs" />
+      <item itemvalue="Application._BitMap" />
+      <item itemvalue="Application.User" />
+      <item itemvalue="Application.AffiliateTransactionUtil" />
+      <item itemvalue="Application.T03________VolatileReference2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.T03________VolatileReference2" />
+        <item itemvalue="Application.AffiliateTransactionUtil" />
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application._BitMap" />
+        <item itemvalue="Application.Hs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="" />
+      <created>1660028658217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660028658217</updated>
+      <workItem from="1660028663543" duration="355000" />
+      <workItem from="1660029047417" duration="1564000" />
+      <workItem from="1660208781397" duration="784000" />
+      <workItem from="1661322121637" duration="294000" />
+      <workItem from="1661322441270" duration="3787000" />
+      <workItem from="1661388716870" duration="8967000" />
+      <workItem from="1661474775132" duration="2536000" />
+      <workItem from="1661512133395" duration="2284000" />
+      <workItem from="1661576455879" duration="3923000" />
+      <workItem from="1661734090574" duration="12793000" />
+      <workItem from="1661828985159" duration="3593000" />
+      <workItem from="1661843704635" duration="2842000" />
+      <workItem from="1661907109658" duration="12800000" />
+      <workItem from="1661943312798" duration="3610000" />
+      <workItem from="1661993672208" duration="1208000" />
+      <workItem from="1662108837388" duration="827000" />
+      <workItem from="1662349365095" duration="1200000" />
+      <workItem from="1662424104111" duration="1669000" />
+      <workItem from="1662596647629" duration="6393000" />
+      <workItem from="1662684680363" duration="2583000" />
+      <workItem from="1663028813194" duration="5454000" />
+      <workItem from="1663115586713" duration="6305000" />
+      <workItem from="1663201697963" duration="2375000" />
+      <workItem from="1663288645718" duration="591000" />
+      <workItem from="1663550395645" duration="11828000" />
+      <workItem from="1663636603473" duration="8714000" />
+      <workItem from="1663719971754" duration="4109000" />
+      <workItem from="1663806454718" duration="1593000" />
+      <workItem from="1663894625643" duration="3403000" />
+      <workItem from="1664155114718" duration="1800000" />
+      <workItem from="1664238874796" duration="4368000" />
+      <workItem from="1664325784287" duration="1701000" />
+      <workItem from="1664334161038" duration="5365000" />
+      <workItem from="1664413961223" duration="12242000" />
+      <workItem from="1664497471746" duration="7208000" />
+      <workItem from="1665188652014" duration="2237000" />
+      <workItem from="1665457011151" duration="7648000" />
+      <workItem from="1665545474888" duration="1284000" />
+      <workItem from="1666081660674" duration="3277000" />
+      <workItem from="1666770094523" duration="1125000" />
+      <workItem from="1666831056549" duration="6765000" />
+      <workItem from="1666919438544" duration="3221000" />
+      <workItem from="1667263582169" duration="2965000" />
+      <workItem from="1667349102519" duration="5534000" />
+      <workItem from="1667521806343" duration="4871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_658.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_5.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_12.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/最大回文子串.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_2_86.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_698.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/ListResultAES.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/ListResultAES.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/数据结构/_BitMap.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../ProgramFiles/ProgramingLanguage/Java/openjdk-8u302-b08/src.zip!/java/util/BitSet.java</url>
+          <line>446</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="41" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="cn.thinkingme.train.shua.dataStructure.ListNode" memberName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
