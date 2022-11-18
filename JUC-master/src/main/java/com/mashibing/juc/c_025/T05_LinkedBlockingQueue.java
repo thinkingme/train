@@ -15,7 +15,7 @@ public class T05_LinkedBlockingQueue {
 		new Thread(() -> {
 			for (int i = 0; i < 100; i++) {
 				try {
-					strs.put("a" + i); //Èç¹ûÂúÁË£¬¾Í»áµÈ´ý
+					strs.put("a" + i); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½Í»ï¿½È´ï¿½
 					TimeUnit.MILLISECONDS.sleep(r.nextInt(1000));
 				} catch (InterruptedException e) {
 					e.printStackTrace();
@@ -27,7 +27,7 @@ public class T05_LinkedBlockingQueue {
 			new Thread(() -> {
 				for (;;) {
 					try {
-						System.out.println(Thread.currentThread().getName() + " take -" + strs.take()); //Èç¹û¿ÕÁË£¬¾Í»áµÈ´ý
+						System.out.println(Thread.currentThread().getName() + " take -" + strs.take()); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½Í»ï¿½È´ï¿½
 					} catch (InterruptedException e) {
 						e.printStackTrace();
 					}

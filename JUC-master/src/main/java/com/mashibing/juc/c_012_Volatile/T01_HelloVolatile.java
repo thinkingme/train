@@ -1,18 +1,18 @@
 /**
- * volatile ¹Ø¼ü×Ö£¬Ê¹Ò»¸ö±äÁ¿ÔÚ¶à¸öÏß³Ì¼ä¿É¼û
- * A BÏß³Ì¶¼ÓÃµ½Ò»¸ö±äÁ¿£¬javaÄ¬ÈÏÊÇAÏß³ÌÖÐ±£ÁôÒ»·Ýcopy£¬ÕâÑùÈç¹ûBÏß³ÌÐÞ¸ÄÁË¸Ã±äÁ¿£¬ÔòAÏß³ÌÎ´±ØÖªµÀ
- * Ê¹ÓÃvolatile¹Ø¼ü×Ö£¬»áÈÃËùÓÐÏß³Ì¶¼»á¶Áµ½±äÁ¿µÄÐÞ¸ÄÖµ
+ * volatile ï¿½Ø¼ï¿½ï¿½Ö£ï¿½Ê¹Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ß³Ì¼ï¿½É¼ï¿½
+ * A Bï¿½ß³Ì¶ï¿½ï¿½Ãµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½javaÄ¬ï¿½ï¿½ï¿½ï¿½Aï¿½ß³ï¿½ï¿½Ð±ï¿½ï¿½ï¿½Ò»ï¿½ï¿½copyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ß³ï¿½ï¿½Þ¸ï¿½ï¿½Ë¸Ã±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½ß³ï¿½Î´ï¿½ï¿½Öªï¿½ï¿½
+ * Ê¹ï¿½ï¿½volatileï¿½Ø¼ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½Öµ
  * 
- * ÔÚÏÂÃæµÄ´úÂëÖÐ£¬runningÊÇ´æÔÚÓÚ¶ÑÄÚ´æµÄt¶ÔÏóÖÐ
- * µ±Ïß³Ìt1¿ªÊ¼ÔËÐÐµÄÊ±ºò£¬»á°ÑrunningÖµ´ÓÄÚ´æÖÐ¶Áµ½t1Ïß³ÌµÄ¹¤×÷Çø£¬ÔÚÔËÐÐ¹ý³ÌÖÐÖ±½ÓÊ¹ÓÃÕâ¸öcopy£¬²¢²»»áÃ¿´Î¶¼È¥
- * ¶ÁÈ¡¶ÑÄÚ´æ£¬ÕâÑù£¬µ±Ö÷Ïß³ÌÐÞ¸ÄrunningµÄÖµÖ®ºó£¬t1Ïß³Ì¸ÐÖª²»µ½£¬ËùÒÔ²»»áÍ£Ö¹ÔËÐÐ
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½Ð£ï¿½runningï¿½Ç´ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½Ú´ï¿½ï¿½tï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ß³ï¿½t1ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½Ðµï¿½Ê±ï¿½ò£¬»ï¿½ï¿½runningÖµï¿½ï¿½ï¿½Ú´ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½t1ï¿½ß³ÌµÄ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½copyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½Î¶ï¿½È¥
+ * ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ú´æ£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½Þ¸ï¿½runningï¿½ï¿½ÖµÖ®ï¿½ï¿½t1ï¿½ß³Ì¸ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½
  * 
- * Ê¹ÓÃvolatile£¬½«»áÇ¿ÖÆËùÓÐÏß³Ì¶¼È¥¶ÑÄÚ´æÖÐ¶ÁÈ¡runningµÄÖµ
+ * Ê¹ï¿½ï¿½volatileï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¶ï¿½È¥ï¿½ï¿½ï¿½Ú´ï¿½ï¿½Ð¶ï¿½È¡runningï¿½ï¿½Öµ
  * 
- * ¿ÉÒÔÔÄ¶ÁÕâÆªÎÄÕÂ½øÐÐ¸üÉîÈëµÄÀí½â
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Æªï¿½ï¿½ï¿½Â½ï¿½ï¿½Ð¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * http://www.cnblogs.com/nexiyi/p/java_memory_model_and_thread.html
  * 
- * volatile²¢²»ÄÜ±£Ö¤¶à¸öÏß³Ì¹²Í¬ÐÞ¸Ärunning±äÁ¿Ê±Ëù´øÀ´µÄ²»Ò»ÖÂÎÊÌâ£¬Ò²¾ÍÊÇËµvolatile²»ÄÜÌæ´úsynchronized
+ * volatileï¿½ï¿½ï¿½ï¿½ï¿½Ü±ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ß³Ì¹ï¿½Í¬ï¿½Þ¸ï¿½runningï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½â£¬Ò²ï¿½ï¿½ï¿½ï¿½Ëµvolatileï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½synchronized
  * @author mashibing
  */
 package com.mashibing.juc.c_012_Volatile;
@@ -20,7 +20,7 @@ package com.mashibing.juc.c_012_Volatile;
 import java.util.concurrent.TimeUnit;
 
 public class T01_HelloVolatile {
-	/*volatile*/ boolean running = true; //¶Ô±ÈÒ»ÏÂÓÐÎÞvolatileµÄÇé¿öÏÂ£¬Õû¸ö³ÌÐòÔËÐÐ½á¹ûµÄÇø±ð
+	/*volatile*/ boolean running = true; //ï¿½Ô±ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½volatileï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	void m() {
 		System.out.println("m start");
 		while(running) {

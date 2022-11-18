@@ -6,7 +6,7 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.LockSupport;
 
 public class T08_Semaphore {
-    // Ìí¼Óvolatile£¬Ê¹t2ÄÜ¹»µÃµ½Í¨Öª
+    // ï¿½ï¿½ï¿½volatileï¿½ï¿½Ê¹t2ï¿½Ü¹ï¿½ï¿½Ãµï¿½Í¨Öª
     volatile List lists = new ArrayList();
 
     public void add(Object o) {
@@ -59,7 +59,7 @@ public class T08_Semaphore {
         t2 = new Thread(() -> {
             try {
                 s.acquire();
-                System.out.println("t2 ½áÊø");
+                System.out.println("t2 ï¿½ï¿½ï¿½ï¿½");
                 s.release();
             } catch (InterruptedException e) {
                 e.printStackTrace();

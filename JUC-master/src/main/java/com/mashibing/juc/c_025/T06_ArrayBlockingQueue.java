@@ -16,7 +16,7 @@ public class T06_ArrayBlockingQueue {
 			strs.put("a" + i);
 		}
 		
-		//strs.put("aaa"); //ÂúÁË¾Í»áµÈ´ý£¬³ÌÐò×èÈû
+		//strs.put("aaa"); //ï¿½ï¿½ï¿½Ë¾Í»ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		//strs.add("aaa");
 		//strs.offer("aaa");
 		strs.offer("aaa", 1, TimeUnit.SECONDS);

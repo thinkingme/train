@@ -1,6 +1,6 @@
 /**
- * ÈÏÊ¶Callable£¬¶ÔRunnable½øÐÐÁËÀ©Õ¹
- * ¶ÔCallableµÄµ÷ÓÃ£¬¿ÉÒÔÓÐ·µ»ØÖµ
+ * ï¿½ï¿½Ê¶Callableï¿½ï¿½ï¿½ï¿½Runnableï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹
+ * ï¿½ï¿½Callableï¿½Äµï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½Öµ
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 
@@ -16,9 +16,9 @@ public class T03_Callable {
         };
 
         ExecutorService service = Executors.newCachedThreadPool();
-        Future<String> future = service.submit(c); //Òì²½
+        Future<String> future = service.submit(c); //ï¿½ì²½
 
-        System.out.println(future.get());//×èÈû
+        System.out.println(future.get());//ï¿½ï¿½ï¿½ï¿½
 
         service.shutdown();
     }

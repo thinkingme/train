@@ -1,6 +1,6 @@
 /**
- * 认识ExecutorService,阅读API文档
- * 认识submit方法，扩展了execute方法，具有一个返回值
+ * 锟斤拷识ExecutorService,锟侥讹拷API锟侥碉拷
+ * 锟斤拷识submit锟斤拷锟斤拷锟斤拷锟斤拷展锟斤拷execute锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷一锟斤拷锟斤拷锟斤拷值
  */
 package com.mashibing.juc.c_026_01_ThreadPool;
 

@@ -1,6 +1,6 @@
 /**
- * volatile并不能保证多个线程共同修改running变量时所带来的不一致问题，也就是说volatile不能替代synchronized
- * 运行下面的程序，并分析结果
+ * volatile锟斤拷锟斤拷锟杰憋拷证锟斤拷锟斤拷叱坦锟酵拷薷锟絩unning锟斤拷锟斤拷时锟斤拷锟斤拷锟斤拷锟侥诧拷一锟斤拷锟斤拷锟解，也锟斤拷锟斤拷说volatile锟斤拷锟斤拷锟斤拷锟絪ynchronized
+ * 锟斤拷锟斤拷锟斤拷锟斤拷某锟斤拷颍锟斤拷锟斤拷锟斤拷锟斤拷
  * @author mashibing
  */
 package com.mashibing.juc.c_012_Volatile;

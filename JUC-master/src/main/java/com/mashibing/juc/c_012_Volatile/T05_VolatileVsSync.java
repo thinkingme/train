@@ -1,5 +1,5 @@
 /**
- * 对比上一个程序，可以用synchronized解决，synchronized可以保证可见性和原子性，volatile只能保证可见性
+ * 锟皆憋拷锟斤拷一锟斤拷锟斤拷锟津，匡拷锟斤拷锟斤拷synchronized锟斤拷锟斤拷锟絪ynchronized锟斤拷锟皆憋拷证锟缴硷拷锟皆猴拷原锟斤拷锟皆ｏ拷volatile只锟杰憋拷证锟缴硷拷锟斤拷
  * @author mashibing
  */
 package com.mashibing.juc.c_012_Volatile;

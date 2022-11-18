@@ -1,18 +1,18 @@
 /**
- * reentrantlockÓÃÓÚÌæ´úsynchronized
- * ÓÉÓÚm1Ëø¶¨this,Ö»ÓÐm1Ö´ÐÐÍê±ÏµÄÊ±ºò,m2²ÅÄÜÖ´ÐÐ
- * ÕâÀïÊÇ¸´Ï°synchronized×îÔ­Ê¼µÄÓïÒå
+ * reentrantlockï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½synchronized
+ * ï¿½ï¿½ï¿½ï¿½m1ï¿½ï¿½ï¿½ï¿½this,Ö»ï¿½ï¿½m1Ö´ï¿½ï¿½ï¿½ï¿½Ïµï¿½Ê±ï¿½ï¿½,m2ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½Ï°synchronizedï¿½ï¿½Ô­Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔÍê³ÉÍ¬ÑùµÄ¹¦ÄÜ
- * ÐèÒª×¢ÒâµÄÊÇ£¬±ØÐëÒª±ØÐëÒª±ØÐëÒªÊÖ¶¯ÊÍ·ÅËø£¨ÖØÒªµÄÊÂÇéËµÈý±é£©
- * Ê¹ÓÃsynËø¶¨µÄ»°Èç¹ûÓöµ½Òì³££¬jvm»á×Ô¶¯ÊÍ·ÅËø£¬µ«ÊÇlock±ØÐëÊÖ¶¯ÊÍ·ÅËø£¬Òò´Ë¾­³£ÔÚfinallyÖÐ½øÐÐËøµÄÊÍ·Å
+ * Ê¹ï¿½ï¿½reentrantlockï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½
+ * ï¿½ï¿½Òª×¢ï¿½ï¿½ï¿½ï¿½Ç£ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½Òªï¿½Ö¶ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½é£©
+ * Ê¹ï¿½ï¿½synï¿½ï¿½ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ï¿½jvmï¿½ï¿½ï¿½Ô¶ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½lockï¿½ï¿½ï¿½ï¿½ï¿½Ö¶ï¿½ï¿½Í·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½finallyï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½
  * 
- * Ê¹ÓÃreentrantlock¿ÉÒÔ½øÐÐ¡°³¢ÊÔËø¶¨¡±tryLock£¬ÕâÑùÎÞ·¨Ëø¶¨£¬»òÕßÔÚÖ¸¶¨Ê±¼äÄÚÎÞ·¨Ëø¶¨£¬Ïß³Ì¿ÉÒÔ¾ö¶¨ÊÇ·ñ¼ÌÐøµÈ´ý
+ * Ê¹ï¿½ï¿½reentrantlockï¿½ï¿½ï¿½Ô½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½tryLockï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¿ï¿½ï¿½Ô¾ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½
  * 
- * Ê¹ÓÃReentrantLock»¹¿ÉÒÔµ÷ÓÃlockInterruptibly·½·¨£¬¿ÉÒÔ¶ÔÏß³Ìinterrupt·½·¨×ö³öÏìÓ¦£¬
- * ÔÚÒ»¸öÏß³ÌµÈ´ýËøµÄ¹ý³ÌÖÐ£¬¿ÉÒÔ±»´ò¶Ï
+ * Ê¹ï¿½ï¿½ReentrantLockï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½lockInterruptiblyï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ß³ï¿½interruptï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½
+ * ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ß³ÌµÈ´ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
  * 
- * ReentrantLock»¹¿ÉÒÔÖ¸¶¨Îª¹«Æ½Ëø
+ * ReentrantLockï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Îªï¿½ï¿½Æ½ï¿½ï¿½
  * 
  * @author mashibing
  */
@@ -22,12 +22,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class T05_ReentrantLock5 extends Thread {
 		
-	private static ReentrantLock lock=new ReentrantLock(true); //²ÎÊýÎªtrue±íÊ¾Îª¹«Æ½Ëø£¬Çë¶Ô±ÈÊä³ö½á¹û
+	private static ReentrantLock lock=new ReentrantLock(true); //ï¿½ï¿½ï¿½ï¿½Îªtrueï¿½ï¿½Ê¾Îªï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void run() {
         for(int i=0; i<100; i++) {
             lock.lock();
             try{
-                System.out.println(Thread.currentThread().getName()+"»ñµÃËø");
+                System.out.println(Thread.currentThread().getName()+"ï¿½ï¿½ï¿½ï¿½ï¿½");
             }finally{
                 lock.unlock();
             }

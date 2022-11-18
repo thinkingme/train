@@ -1,11 +1,11 @@
 /**
- * Ð´Ê±¸´ÖÆÈÝÆ÷ copy on write
- * ¶àÏß³Ì»·¾³ÏÂ£¬Ð´Ê±Ð§ÂÊµÍ£¬¶ÁÊ±Ð§ÂÊ¸ß
- * ÊÊºÏÐ´ÉÙ¶Á¶àµÄ»·¾³
+ * Ð´Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ copy on write
+ * ï¿½ï¿½ï¿½ß³Ì»ï¿½ï¿½ï¿½ï¿½Â£ï¿½Ð´Ê±Ð§ï¿½ÊµÍ£ï¿½ï¿½ï¿½Ê±Ð§ï¿½Ê¸ï¿½
+ * ï¿½Êºï¿½Ð´ï¿½Ù¶ï¿½ï¿½ï¿½Ä»ï¿½ï¿½ï¿½
  * 
  * 
  * 
- * @author ÂíÊ¿±ø
+ * @author ï¿½ï¿½Ê¿ï¿½ï¿½
  */
 package com.mashibing.juc.c_025;
 
@@ -19,7 +19,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class T02_CopyOnWriteList {
 	public static void main(String[] args) {
 		List<String> lists = 
-				//new ArrayList<>(); //Õâ¸ö»á³ö²¢·¢ÎÊÌâ£¡
+				//new ArrayList<>(); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â£¡
 				//new Vector();
 				new CopyOnWriteArrayList<>();
 		Random r = new Random();

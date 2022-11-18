@@ -9,7 +9,7 @@
  * 
  * @author mashibing
  */
-package com.mashibing.juc.c_021_01_interview;
+package com.mashibing.juc.factorySimulation;
 
 import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
@@ -17,6 +17,16 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
+/**
+ * 工厂生产消费模拟
+ *
+ *  // 为什么多线程同步的时候 要用while而不是if
+ *         //A线程和B线程在执行 get 方法的时候，由于list 的 size 为 0， 所以A和B线程都执行wait方法阻塞住并且释放了锁。
+ *         //C 线程执行put操作是，调用 notifyAll() 方法唤醒A和B线程，假设是A线程先获得锁，那么A remove 后，现在 list 的大小又为 0 了
+ *         // 此时线程A调用 notifyAll 方法来唤醒B线程，那么B线程获得锁之后，会直接调用 remove 方法，此时 list 的大小为0，所以报 IndexOutOfBoundsException
+ *         // 解决方法就是将 if 改为 while 就好了，因为 是while的话， 此时线程A调用 notifyAll 方法来唤醒B线程，那么B线程获得锁之后 会执行 while 语句，判断 size == 0，执行 wait 方法
+ * @param <T>
+ */
 public class MyContainer2<T> {
 	final private LinkedList<T> lists = new LinkedList<>();
 	final private int MAX = 10; //最多10个元素
@@ -32,7 +42,6 @@ public class MyContainer2<T> {
 			while(lists.size() == MAX) { //想想为什么用while而不是用if？
 				producer.await();
 			}
-			
 			lists.add(t);
 			++count;
 			consumer.signalAll(); //通知消费者线程进行消费
@@ -47,7 +56,7 @@ public class MyContainer2<T> {
 		T t = null;
 		try {
 			lock.lock();
-			while(lists.size() == 0) {
+			while (lists.size() == 0) {
 				consumer.await();
 			}
 			t = lists.removeFirst();

@@ -1,9 +1,9 @@
 /**
- * Ôø¾­µÄÃæÊÔÌâ£º£¨ÌÔ±¦£¿£©
- * ÊµÏÖÒ»¸öÈÝÆ÷£¬Ìá¹©Á½¸ö·½·¨£¬add£¬size
- * Ð´Á½¸öÏß³Ì£¬Ïß³Ì1Ìí¼Ó10¸öÔªËØµ½ÈÝÆ÷ÖÐ£¬Ïß³Ì2ÊµÏÖ¼à¿ØÔªËØµÄ¸öÊý£¬µ±¸öÊýµ½5¸öÊ±£¬Ïß³Ì2¸ø³öÌáÊ¾²¢½áÊø
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½â£ºï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½
+ * Êµï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½addï¿½ï¿½size
+ * Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì£ï¿½ï¿½ß³ï¿½1ï¿½ï¿½ï¿½10ï¿½ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½ß³ï¿½2Êµï¿½Ö¼ï¿½ï¿½Ôªï¿½ØµÄ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½5ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ß³ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * 
- * ·ÖÎöÏÂÃæÕâ¸ö³ÌÐò£¬ÄÜÍê³ÉÕâ¸ö¹¦ÄÜÂð£¿
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author mashibing
  */
 package com.mashibing.juc.c_020_01_Interview;
@@ -47,7 +47,7 @@ public class T01_WithoutVolatile {
 					break;
 				}
 			}
-			System.out.println("t2 ½áÊø");
+			System.out.println("t2 ï¿½ï¿½ï¿½ï¿½");
 		}, "t2").start();
 	}
 }

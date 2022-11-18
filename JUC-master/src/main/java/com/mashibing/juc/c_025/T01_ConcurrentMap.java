@@ -1,7 +1,7 @@
 /**
  * http://blog.csdn.net/sunxianghuang/article/details/52221913 
  * http://www.educity.cn/java/498061.html
- * ÔÄ¶Áconcurrentskiplistmap
+ * ï¿½Ä¶ï¿½concurrentskiplistmap
  */
 package com.mashibing.juc.c_025;
 
@@ -13,7 +13,7 @@ import java.util.concurrent.CountDownLatch;
 public class T01_ConcurrentMap {
 	public static void main(String[] args) {
 		Map<String, String> map = new ConcurrentHashMap<>();
-		//Map<String, String> map = new ConcurrentSkipListMap<>(); //¸ß²¢·¢²¢ÇÒÅÅÐò
+		//Map<String, String> map = new ConcurrentSkipListMap<>(); //ï¿½ß²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		//Map<String, String> map = new Hashtable<>();
 		//Map<String, String> map = new HashMap<>(); //Collections.synchronizedXXX
