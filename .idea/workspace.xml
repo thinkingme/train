@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/bjmashbing-sysio.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreads.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/META-INF/bjmashbing-sysio.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIO.class" afterDir="false" />
+    <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/TestInfect.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/TestInfect.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bjmashbing-sysio" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -35,6 +32,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -53,11 +53,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mall-gather-1.1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,39 +69,13 @@
       <recent name="cn.thinkingme.train.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T03________VolatileReference2">
-    <configuration name="AffiliateTransactionUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.AffiliateTransactionUtil" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.thinkingme.train.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.aes.Hs" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.thinkingme.train.test.aes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T03________VolatileReference2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T03________VolatileReference2" />
+  <component name="RunManager" selected="Application.TestInfect">
+    <configuration name="MyContainer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.factorySimulation.MyContainer2" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_012_Volatile.*" />
+          <option name="PATTERN" value="com.mashibing.juc.factorySimulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.test.User" />
-      <module name="test" />
+    <configuration name="T12_00_Exchanger_Not_Work" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_026_00_interview.A1B2C3.T12_00_Exchanger_Not_Work" />
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.thinkingme.train.test.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_026_00_interview.A1B2C3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +96,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.shua.数据结构._BitMap" />
-      <module name="shua" />
+    <configuration name="T12_TestExchanger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_020.T12_TestExchanger" />
+      <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.thinkingme.train.shua.数据结构.*" />
+          <option name="PATTERN" value="com.mashibing.juc.c_020.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestInfect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.jvm.TestInfect" />
+      <module name="JVM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.jvm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSense" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.interrupt.TestSense" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mashibing.juc.interrupt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Hs" />
-      <item itemvalue="Application._BitMap" />
-      <item itemvalue="Application.User" />
-      <item itemvalue="Application.AffiliateTransactionUtil" />
-      <item itemvalue="Application.T03________VolatileReference2" />
+      <item itemvalue="Application.TestSense" />
+      <item itemvalue="Application.T12_TestExchanger" />
+      <item itemvalue="Application.T12_00_Exchanger_Not_Work" />
+      <item itemvalue="Application.MyContainer2" />
+      <item itemvalue="Application.TestInfect" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.T03________VolatileReference2" />
-        <item itemvalue="Application.AffiliateTransactionUtil" />
-        <item itemvalue="Application.User" />
-        <item itemvalue="Application._BitMap" />
-        <item itemvalue="Application.Hs" />
+        <item itemvalue="Application.TestInfect" />
+        <item itemvalue="Application.MyContainer2" />
+        <item itemvalue="Application.T12_00_Exchanger_Not_Work" />
+        <item itemvalue="Application.T12_TestExchanger" />
+        <item itemvalue="Application.TestSense" />
       </list>
     </recent_temporary>
   </component>
@@ -205,11 +205,116 @@
       <workItem from="1667263582169" duration="2965000" />
       <workItem from="1667349102519" duration="5534000" />
       <workItem from="1667521806343" duration="4871000" />
+      <workItem from="1667547058501" duration="3178000" />
+      <workItem from="1667825839278" duration="642000" />
+      <workItem from="1667867506067" duration="6663000" />
+      <workItem from="1667902945391" duration="3326000" />
+      <workItem from="1667954471689" duration="2436000" />
+      <workItem from="1668040664419" duration="4967000" />
+      <workItem from="1668127447957" duration="1791000" />
+      <workItem from="1668386068606" duration="6630000" />
+      <workItem from="1668472737715" duration="5008000" />
+      <workItem from="1668561591215" duration="4668000" />
+      <workItem from="1668646977876" duration="1372000" />
+      <workItem from="1668736121757" duration="10348000" />
     </task>
+    <task id="LOCAL-00001" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668744682998</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668744682998</updated>
+    </task>
+    <task id="LOCAL-00002" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668744854014</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668744854014</updated>
+    </task>
+    <task id="LOCAL-00003" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745000206</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745000206</updated>
+    </task>
+    <task id="LOCAL-00004" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745189638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745189638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745303102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745303102</updated>
+    </task>
+    <task id="LOCAL-00006" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745475342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745475342</updated>
+    </task>
+    <task id="LOCAL-00007" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745804460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745804460</updated>
+    </task>
+    <task id="LOCAL-00008" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745940775</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745940775</updated>
+    </task>
+    <task id="LOCAL-00009" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668745971666</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745971666</updated>
+    </task>
+    <task id="LOCAL-00010" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668746737452</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668746737452</updated>
+    </task>
+    <task id="LOCAL-00011" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
+      <created>1668746887896</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668746887896</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -243,16 +348,6 @@
           <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_698.java</url>
           <line>27</line>
           <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/ListResultAES.java</url>
-          <line>141</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/ListResultAES.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/数据结构/_BitMap.java</url>
