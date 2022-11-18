@@ -1,7 +1,7 @@
 /**
- * ThreadLocal线程局部变量
+ * ThreadLocal锟竭程局诧拷锟斤拷锟斤拷
  * 
- * @author 马士兵
+ * @author 锟斤拷士锟斤拷
  */
 package com.mashibing.juc.c_022_RefTypeAndThreadLocal;
 

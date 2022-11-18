@@ -1,12 +1,12 @@
 /**
- * ThreadLocal线程局部变量
+ * ThreadLocal锟竭程局诧拷锟斤拷锟斤拷
  *
- * ThreadLocal是使用空间换时间，synchronized是使用时间换空间
- * 比如在hibernate中session就存在与ThreadLocal中，避免synchronized的使用
+ * ThreadLocal锟斤拷使锟矫空间换时锟戒，synchronized锟斤拷使锟斤拷时锟戒换锟秸硷拷
+ * 锟斤拷锟斤拷锟斤拷hibernate锟斤拷session锟酵达拷锟斤拷锟斤拷ThreadLocal锟叫ｏ拷锟斤拷锟斤拷synchronized锟斤拷使锟斤拷
  *
- * 运行下面的程序，理解ThreadLocal
+ * 锟斤拷锟斤拷锟斤拷锟斤拷某锟斤拷锟斤拷锟斤拷ThreadLocal
  * 
- * @author 马士兵
+ * @author 锟斤拷士锟斤拷
  */
 package com.mashibing.juc.c_022_RefTypeAndThreadLocal;
 
