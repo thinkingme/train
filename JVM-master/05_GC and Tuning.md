@@ -305,71 +305,9 @@ total = eden + 1个survivor
 
 1. 测试代码：
 
-   ```java
-   package com.mashibing.jvm.gc;
-   
-   import java.math.BigDecimal;
-   import java.util.ArrayList;
-   import java.util.Date;
-   import java.util.List;
-   import java.util.concurrent.ScheduledThreadPoolExecutor;
-   import java.util.concurrent.ThreadPoolExecutor;
-   import java.util.concurrent.TimeUnit;
-   
-   /**
-    * 从数据库中读取信用数据，套用模型，并把结果进行记录和传输
-    */
-   
-   public class T15_FullGC_Problem01 {
-   
-       private static class CardInfo {
-           BigDecimal price = new BigDecimal(0.0);
-           String name = "张三";
-           int age = 5;
-           Date birthdate = new Date();
-   
-           public void m() {}
-       }
-   
-       private static ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(50,
-               new ThreadPoolExecutor.DiscardOldestPolicy());
-   
-       public static void main(String[] args) throws Exception {
-           executor.setMaximumPoolSize(50);
-   
-           for (;;){
-               modelFit();
-               Thread.sleep(100);
-           }
-       }
-   
-       private static void modelFit(){
-           List<CardInfo> taskList = getAllCardInfo();
-           taskList.forEach(info -> {
-               // do something
-               executor.scheduleWithFixedDelay(() -> {
-                   //do sth with info
-                   info.m();
-   
-               }, 2, 3, TimeUnit.SECONDS);
-           });
-       }
-   
-       private static List<CardInfo> getAllCardInfo(){
-           List<CardInfo> taskList = new ArrayList<>();
-   
-           for (int i = 0; i < 100; i++) {
-               CardInfo ci = new CardInfo();
-               taskList.add(ci);
-           }
-   
-           return taskList;
-       }
-   }
-   
-   ```
+T15_FullGC_Problem01
 
-2. java -Xms200M -Xmx200M -XX:+PrintGC com.mashibing.jvm.gc.T15_FullGC_Problem01
+2. java -Xms200M -Xmx200M -XX:+PrintGC com.thinkingme.jvm.gc.T15_FullGC_Problem01
 
 3. 一般是运维团队首先受到报警信息（CPU Memory）
 
@@ -410,7 +348,7 @@ total = eden + 1个survivor
     2：<font color='red'>很多服务器备份（高可用），停掉这台服务器对其他服务器不影响</font>
     3：在线定位(一般小点儿公司用不到)
 
-14. java -Xms20M -Xmx20M -XX:+UseParallelGC -XX:+HeapDumpOnOutOfMemoryError com.mashibing.jvm.gc.T15_FullGC_Problem01
+14. java -Xms20M -Xmx20M -XX:+UseParallelGC -XX:+HeapDumpOnOutOfMemoryError com.thinkingme.jvm.gc.T15_FullGC_Problem01
 
 15. 使用MAT / jhat /jvisualvm 进行dump文件分析
      https://www.cnblogs.com/baihuitestsoftware/articles/6406271.html 
@@ -500,7 +438,7 @@ jhat -J-mx512M xxx.dump
 
 #### CMS日志分析
 
-执行命令：java -Xms20M -Xmx20M -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC com.mashibing.jvm.gc.T15_FullGC_Problem01
+执行命令：java -Xms20M -Xmx20M -XX:+PrintGCDetails -XX:+UseConcMarkSweepGC com.thinkingme.jvm.gc.T15_FullGC_Problem01
 
 [GC (Allocation Failure) [ParNew: 6144K->640K(6144K), 0.0265885 secs] 6585K->2770K(19840K), 0.0268035 secs] [Times: user=0.02 sys=0.00, real=0.02 secs] 
 
@@ -553,7 +491,7 @@ jhat -J-mx512M xxx.dump
 
 #### G1日志详解
 
-```java
+```
 [GC pause (G1 Evacuation Pause) (young) (initial-mark), 0.0015790 secs]
 //young -> 年轻代 Evacuation-> 复制存活对象 
 //initial-mark 混合回收的阶段，这里是YGC混合老年代回收
@@ -615,8 +553,8 @@ OOM产生的原因多种多样，有些程序未必产生OOM，不断FGC(CPU飙�
 5. lambda表达式导致方法区溢出问题(MethodArea / Perm Metaspace)
    LambdaGC.java     -XX:MaxMetaspaceSize=9M -XX:+PrintGCDetails
 
-   ```java
-   "C:\Program Files\Java\jdk1.8.0_181\bin\java.exe" -XX:MaxMetaspaceSize=9M -XX:+PrintGCDetails "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1\lib\idea_rt.jar=49316:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\work\ijprojects\JVM\out\production\JVM;C:\work\ijprojects\ObjectSize\out\artifacts\ObjectSize_jar\ObjectSize.jar" com.mashibing.jvm.gc.LambdaGC
+   ```
+   "C:\Program Files\Java\jdk1.8.0_181\bin\java.exe" -XX:MaxMetaspaceSize=9M -XX:+PrintGCDetails "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1\lib\idea_rt.jar=49316:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.1\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\work\ijprojects\JVM\out\production\JVM;C:\work\ijprojects\ObjectSize\out\artifacts\ObjectSize_jar\ObjectSize.jar" com.thinkingme.jvm.gc.LambdaGC
    [GC (Metadata GC Threshold) [PSYoungGen: 11341K->1880K(38400K)] 11341K->1888K(125952K), 0.0022190 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
    [Full GC (Metadata GC Threshold) [PSYoungGen: 1880K->0K(38400K)] [ParOldGen: 8K->1777K(35328K)] 1888K->1777K(73728K), [Metaspace: 8164K->8164K(1056768K)], 0.0100681 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
    [GC (Last ditch collection) [PSYoungGen: 0K->0K(38400K)] 1777K->1777K(73728K), 0.0005698 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 

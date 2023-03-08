@@ -1,10 +1,8 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
-import java.util.HashMap;
-import java.util.Locale;
 
 /**
  * <p>
@@ -55,7 +53,6 @@ class DynaProxyHello implements InvocationHandler {
      * 动态生成方法被处理过后的对象 (写法固定)
      *
      * @param delegate
-     * @param proxy
      * @return
      */
     public Object bind(Object delegate) {
@@ -68,6 +65,7 @@ class DynaProxyHello implements InvocationHandler {
      * 要处理的对象中的每个方法会被此方法送去JVM调用,也就是说,要处理的对象的方法只能通过此方法调用
      * 此方法是动态的,不是手动调用的
      */
+    @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object result = null;
         try {
