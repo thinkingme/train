@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="项目格式修改">
+    <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="添加java agent测试代码&#10;诸如arthas，idea破解都是用这种方式">
+      <change afterPath="$PROJECT_DIR$/agent-test/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-test/runtime-agent/src/main/java/com/thinking/runtimeAgent/RunTimeAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-test/runtime-agent/src/main/java/com/thinking/runtimeAgent/RunTimeTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-test/target-app/src/main/java/com/thinkingme/targetApp/APPMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-test/target-app/src/main/java/com/thinkingme/targetApp/AppInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/05_GC and Tuning.md" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/05_GC and Tuning.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/TestInfect.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/TestInfect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shua/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shua/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +65,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -65,11 +73,14 @@
       <recent name="D:\workspace\IDEAworkspace\train\test\src\main\java\cn\thinkingme\train\test" />
       <recent name="D:\workspace\IDEAworkspace\train\JVM-master" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\IDEAworkspace\train\agent-test" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.thinkingme.train.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.T">
+  <component name="RunManager" selected="Application.APPMain">
     <configuration name="真真假假" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkingme.train.shua.表达式问题.真真假假" />
       <module name="shua" />
@@ -96,12 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOMObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.thinkingme.train.shua.JVM.OOMObject" />
-      <module name="shua" />
+    <configuration name="APPMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingme.targetApp.APPMain" />
+      <module name="target-app" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\workspace\IDEAworkspace\train\agent-test\runtime-agent\target\runtime-agent-1.0-SNAPSHOT.jar=hello" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.thinkingme.train.shua.JVM.*" />
+          <option name="PATTERN" value="com.thinkingme.targetApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,33 +134,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="T01_HelloVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mashibing.juc.c_012_Volatile.T01_HelloVolatile" />
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mashibing.juc.c_012_Volatile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.T01_HelloVolatile" />
       <item itemvalue="Application.A" />
-      <item itemvalue="Application.OOMObject" />
       <item itemvalue="Application.真真假假" />
       <item itemvalue="Application.T" />
+      <item itemvalue="Application.APPMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.APPMain" />
         <item itemvalue="Application.T" />
         <item itemvalue="Application.真真假假" />
-        <item itemvalue="Application.OOMObject" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.T01_HelloVolatile" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +246,7 @@
       <workItem from="1678070254160" duration="7634000" />
       <workItem from="1678107203849" duration="3215000" />
       <workItem from="1678176713280" duration="1622000" />
-      <workItem from="1678274091358" duration="3860000" />
+      <workItem from="1678274091358" duration="7204000" />
     </task>
     <task id="LOCAL-00001" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
       <created>1668744682998</created>
@@ -377,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678277660634</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="项目格式修改">
+      <created>1678278073825</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678278073825</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

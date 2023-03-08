@@ -16,6 +16,7 @@
         <module>JVM-master</module>
         <module>JUC-master</module>
         <module>sysio</module>
+        <module>agent-test</module>
     </modules>
 
 

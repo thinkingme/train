@@ -13,6 +13,8 @@
         <module name="utils" />
         <module name="JUC" />
         <module name="mian" />
+        <module name="target-app" />
+        <module name="runtime-agent" />
         <module name="sysio" />
       </profile>
     </annotationProcessing>
