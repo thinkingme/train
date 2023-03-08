@@ -10,7 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <description>面经</description>
-    <groupId>mashibing.com</groupId>
+    <groupId>thinkingme.com</groupId>
     <artifactId>JUC</artifactId>
     <version>1.0-SNAPSHOT</version>
 

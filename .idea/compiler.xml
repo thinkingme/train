@@ -8,12 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JVM" />
-        <module name="bjmashbing-sysio" />
         <module name="shua" />
         <module name="test" />
         <module name="utils" />
         <module name="JUC" />
         <module name="mian" />
+        <module name="sysio" />
       </profile>
     </annotationProcessing>
   </component>

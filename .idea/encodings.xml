@@ -2,13 +2,13 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/JUC-master/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/factorySimulation/MyContainer1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/factorySimulation/MyContainer1.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/JUC-master/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JVM-master/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/bjmashbing-sysio/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mian/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shua/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sysio/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/utils/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/utils/src/main/resources" charset="UTF-8" />

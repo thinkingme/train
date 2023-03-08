@@ -1,9 +1,5 @@
 # Disruptor
 
-作者：马士兵 http://www.mashibing.com
-
-最近更新：2019年10月22日
-
 ## 介绍
 
 主页：http://lmax-exchange.github.io/disruptor/
@@ -132,7 +128,7 @@ try {
 ## 使用Lamda表达式
 
 ```java
-package com.mashibing.disruptor;
+package com.thinkingme.disruptor;
 
 import com.lmax.disruptor.RingBuffer;
 import com.lmax.disruptor.dsl.Disruptor;

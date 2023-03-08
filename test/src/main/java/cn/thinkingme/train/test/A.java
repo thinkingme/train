@@ -49,5 +49,9 @@ public class A extends GetTimeConf<A>{
         Function<String, String> backToString = toInteger.andThen(String::valueOf);
         // "123"
         backToString.apply("123");
+
+        String ss= "aaa";
+        String[] split = ss.split(";");
+        System.out.println(Arrays.toString(split));
     }
 }

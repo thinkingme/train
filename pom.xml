@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>cn.thinkingme</groupId>
+    <groupId>com.thinkingme</groupId>
     <artifactId>train</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
@@ -15,7 +15,7 @@
         <module>mian</module>
         <module>JVM-master</module>
         <module>JUC-master</module>
-        <module>bjmashbing-sysio</module>
+        <module>sysio</module>
     </modules>
 
 
@@ -34,6 +34,11 @@
             <version>31.1-jre</version>
         </dependency>
 
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.6</version>
+        </dependency>
 
         <dependency>
             <groupId>redis.clients</groupId>

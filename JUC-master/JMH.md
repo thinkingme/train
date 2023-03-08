@@ -25,7 +25,7 @@
            <maven.compiler.target>1.8</maven.compiler.target>
        </properties>
    
-       <groupId>mashibing.com</groupId>
+       <groupId>thinkingme.com</groupId>
        <artifactId>HelloJMH2</artifactId>
        <version>1.0-SNAPSHOT</version>
    
@@ -60,7 +60,7 @@
 4. 定义需要测试类PS (ParallelStream)
 
    ```java
-   package com.mashibing.jmh;
+   package com.thinkingme.jmh;
    
    import java.util.ArrayList;
    import java.util.List;
@@ -96,7 +96,7 @@
    > 这个测试类一定要在test package下面
    >
    > ```java
-   > package com.mashibing.jmh;
+   > package com.thinkingme.jmh;
    > 
    > import org.openjdk.jmh.annotations.Benchmark;
    > 
