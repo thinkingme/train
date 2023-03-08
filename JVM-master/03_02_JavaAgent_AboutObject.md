@@ -30,7 +30,7 @@ java -XX:+PrintCommandLineFlags -version
 2. 创建文件ObjectSizeAgent
 
    ```java
-   package com.mashibing.jvm.agent;
+   package com.thinkingme.jvm.agent;
    
    import java.lang.instrument.Instrumentation;
    
@@ -51,8 +51,8 @@ java -XX:+PrintCommandLineFlags -version
 
    ```shell
    Manifest-Version: 1.0
-   Created-By: mashibing.com
-   Premain-Class: com.mashibing.jvm.agent.ObjectSizeAgent
+   Created-By: thinkingme.com
+   Premain-Class: com.thinkingme.jvm.agent.ObjectSizeAgent
    ```
 
    注意Premain-Class这行必须是新的一行（回车 + 换行），确认idea不能有任何错误提示
@@ -71,9 +71,9 @@ java -XX:+PrintCommandLineFlags -version
 7. 如何使用该类：
 
    ```java
-      package com.mashibing.jvm.c3_jmm;
+      package com.thinkingme.jvm.c3_jmm;
       
-      import com.mashibing.jvm.agent.ObjectSizeAgent;
+      import com.thinkingme.jvm.agent.ObjectSizeAgent;
       
       public class T03_SizeOfAnObject {
           public static void main(String[] args) {
