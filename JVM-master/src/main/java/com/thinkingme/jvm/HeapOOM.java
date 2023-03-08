@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 import java.util.LinkedList;
 import java.util.List;

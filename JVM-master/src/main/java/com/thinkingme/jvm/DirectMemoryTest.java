@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 import java.nio.ByteBuffer;
 import java.util.concurrent.TimeUnit;

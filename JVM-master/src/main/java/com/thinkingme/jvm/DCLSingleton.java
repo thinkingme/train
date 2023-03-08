@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 /**
  * <p>

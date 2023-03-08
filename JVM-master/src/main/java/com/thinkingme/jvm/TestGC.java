@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 public class TestGC {
     public static String s = " a5s4d65a46d";

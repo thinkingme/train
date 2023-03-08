@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 /**
  * -Xcomp的作用，开启编译模式

@@ -1,4 +1,4 @@
-package com.mashibing.jvm;
+package com.thinkingme.jvm;
 
 public class StackOverFlow {
     public static void main(String[] args) {
