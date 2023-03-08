@@ -5,198 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="项目格式修改">
-      <change afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1732找到最高海拔.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_795区间子数组个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_809情感丰富的文字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_14剪绳子.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_15二进制中1的个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/image/System_IO (1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/image/System_IO (1).pos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/image/System_IO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/image/System_IO.pos" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/image/pcstat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/aio/TestAio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/NettyClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/NettyIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/OSFileIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketIOPropertites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketMultiplexingSingleThreadv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketMultiplexingThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketMultiplexingThreadsV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sysio/src/main/java/com/thinkingme/system/io/SocketNIO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c1_bytecode/T0100_ByteCode01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/Disruptor.md" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/Disruptor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/JMH.md" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/JMH.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/JustTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/JustTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/Tets.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/Tets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v1/LongEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v3/LongEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v1/LongEventFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/LongEventFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v1/LongEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v1/LongEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v1/LongEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v1/LongEventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/LongEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v1/LongEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/LongEventFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v1/LongEventFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/LongEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/LongEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/LongEventProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/LongEventProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v2/readme" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v3/LongEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v2/LongEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v3/readme" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v3/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v4/LongEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v4/LongEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/disruptor/v4/readme" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/disruptor/v4/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_000/T01_WhatIsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_000/T01_WhatIsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_000/T02_HowToCreateThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_000/T02_HowToCreateThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_000/T03_Sleep_Yield_Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_000/T03_Sleep_Yield_Join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_000/T04_ThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_000/T04_ThreadState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_001/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_002/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_003/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_003/T1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_004/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_005/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_006/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_007/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_008/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_008/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_009/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_010/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_011/T.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_011_01/readme" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_011_01/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_012_Volatile/T01_HelloVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_012_Volatile/T02_VolatileReference1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_012_Volatile/T02_VolatileReference1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_012_Volatile/T03________VolatileReference2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_012_Volatile/T03________VolatileReference2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_012_Volatile/T04_VolatileNotSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_012_Volatile/T04_VolatileNotSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_012_Volatile/T05_VolatileVsSync.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_012_Volatile/T05_VolatileVsSync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_016_LockOptimization/FineCoarseLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_016_LockOptimization/FineCoarseLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/DoNotLockString.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_017_MoreAboutSync/DoNotLockString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_017_MoreAboutSync/SyncSameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_017_MoreAboutSync/SyncSameObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_018_00_AtomicXXX/T01_AtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_018_00_AtomicXXX/T01_AtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_018_00_AtomicXXX/T02_AtomicVsSyncVsLongAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_018_00_AtomicXXX/T03________SyncVsLongAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_018_01_Unsafe/HelloUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_018_01_Unsafe/HelloUnsafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T01_ReentrantLock1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T01_ReentrantLock1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T02_ReentrantLock2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T02_ReentrantLock2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T03_ReentrantLock3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T03_ReentrantLock3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T04_ReentrantLock4.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T04_ReentrantLock4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T05_ReentrantLock5.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T05_ReentrantLock5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T06_TestCountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T06_TestCountDownLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T07_TestCyclicBarrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T07_TestCyclicBarrier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T08_TestPhaser.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T08_TestPhaser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T09_TestPhaser2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T09_TestPhaser2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T10_TestReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T10_TestReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T11_TestSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T11_TestSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T12_TestExchanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T12_TestExchanger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020/T13_TestLockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020/T13_TestLockSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T01_WithoutVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T01_WithoutVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T02_WithVolatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T02_WithVolatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T03_NotifyHoldingLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T03_NotifyHoldingLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T04_NotifyFreeLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T04_NotifyFreeLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T05_CountDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T05_CountDownLatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T06_LockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T06_LockSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T07_LockSupport_WithoutSleep.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T07_LockSupport_WithoutSleep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_020_01_Interview/T08_Semaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_020_01_Interview/T08_Semaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_021_02_AQS/MLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_021_02_AQS/MLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_021_02_AQS/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_021_02_AQS/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_021_02_AQS/Sync.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_021_02_AQS/Sync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_021_02_AQS/TestReentrantLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_021_02_AQS/TestReentrantLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_021_03_VarHandle/T01_HelloVarHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/M.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/M.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T01_NormalReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/T01_NormalReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T02_SoftReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/T02_SoftReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T03_WeakReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/T03_WeakReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/T04_PhantomReference.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/T04_PhantomReference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/ThreadLocal1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/ThreadLocal1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_022_RefTypeAndThreadLocal/ThreadLocal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_022_RefTypeAndThreadLocal/ThreadLocal2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_01_Containers/HelloQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_01_Containers/HelloQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_01_Containers/T01_HelloArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_01_Containers/T01_HelloArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_01_Containers/T02_CollectionListSetQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_01_Containers/T02_CollectionListSetQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_02_FromHashtableToCHM/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/T01_TestHashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_02_FromHashtableToCHM/T01_TestHashtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/T02_TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_02_FromHashtableToCHM/T02_TestHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/T03_TestSynchronizedHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_02_FromHashtableToCHM/T03_TestSynchronizedHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_023_02_FromHashtableToCHM/T04_TestConcurrentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_023_02_FromHashtableToCHM/T04_TestConcurrentHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_024_FromVectorToQueue/TicketSeller1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_024_FromVectorToQueue/TicketSeller2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_024_FromVectorToQueue/TicketSeller3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/TicketSeller4.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_024_FromVectorToQueue/TicketSeller4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_024_FromVectorToQueue/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_024_FromVectorToQueue/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T01_ConcurrentMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T01_ConcurrentMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T02_CopyOnWriteList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T02_CopyOnWriteList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T03_SynchronizedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T03_SynchronizedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T04_ConcurrentQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T04_ConcurrentQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T05_LinkedBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T05_LinkedBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T06_ArrayBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T06_ArrayBlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T07_01_PriorityQueque.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T07_01_PriorityQueque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T07_DelayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T07_DelayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T08_SynchronusQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T08_SynchronusQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/T09_TransferQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/T09_TransferQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_025/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_025/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T01_00_Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T01_00_Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T02_00_LockSupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T03_00_cas.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T03_00_cas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T04_00_BlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T04_00_BlockingQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T05_00_AtomicInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T05_00_AtomicInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T06_00_sync_wait_notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T07_00_sync_wait_notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T07_00_sync_wait_notify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T08_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T09_00_lock_condition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T10_00_PipedStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T10_00_PipedStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T12_00_Exchanger_Not_Work.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T12_00_Exchanger_Not_Work.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/T13_TransferQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_00_interview/A1B2C3/readme" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_00_interview/A1B2C3/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T01_MyExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T01_MyExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T02_ExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T02_ExecutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T03_Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T03_Callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T04_Executors.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T04_Executors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T05_00_HelloThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T05_00_HelloThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T05_ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T05_ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T06_00_Future.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T06_00_Future.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T07_SingleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T07_SingleThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T08_CachedPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T08_CachedPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T09_FixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T09_FixedThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T10_ScheduledPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T10_ScheduledPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T11_WorkStealingPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T11_WorkStealingPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T12_ForkJoinPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T12_ForkJoinPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/T14_MyRejectedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T14_MyRejectedHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/ThreadPoolExecutor源码解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/ThreadPoolExecutor源码解析.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_026_01_ThreadPool/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_027_future_to_loom/T01_Future.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_027_future_to_loom/T01_Future.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_027_future_to_loom/T02_ListenableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_027_future_to_loom/T02_ListenableFuture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_028_FalseSharing/T01_CacheLinePadding.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_028_FalseSharing/T01_CacheLinePadding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_028_FalseSharing/T02_CacheLinePadding.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_028_FalseSharing/T02_CacheLinePadding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/c_029_WriteCombining/WriteCombining.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_029_WriteCombining/WriteCombining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/factorySimulation/MyContainer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/factorySimulation/MyContainer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/factorySimulation/MyContainer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/factorySimulation/MyContainer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/mashibing/juc/interrupt/TestSense.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/interrupt/TestSense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_001/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_002/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_003/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_003/T1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_004/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_005/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_006/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_007/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_009/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_010/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_010/TT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_011/T$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_011/T.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.class" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_012_Volatile/T01_HelloVolatile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_021_01_interview/MyContainer1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JUC-master/target/classes/com/mashibing/juc/c_021_01_interview/MyContainer2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/03_02_JavaAgent_AboutObject.md" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/03_02_JavaAgent_AboutObject.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/05_GC and Tuning.md" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/05_GC and Tuning.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/pom.xml" afterDir="false" />
@@ -212,7 +22,7 @@
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c0_basic/T.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c0_basic/T.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c0_basic/TT.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c0_basic/TT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c0_basic/TestIndentityHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c0_basic/TestIndentityHashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c1_bytecode/T0100_ByteCode01.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c1_bytecode/T0100_ByteCode01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c1_bytecode/T0100_ByteCode01.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c1_bytecode/T0101_ByteCode_With_Interfaces.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c1_bytecode/T0101_ByteCode_With_Interfaces.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c1_bytecode/T0102_ByteCode02.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c1_bytecode/T0102_ByteCode02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/c1_bytecode/T0103_ByteCode03.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/c1_bytecode/T0103_ByteCode03.java" afterDir="false" />
@@ -261,612 +71,11 @@
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/myhotswap/HackSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/myhotswap/HackSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/myhotswap/HotSwapClassLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/myhotswap/HotSwapClassLoader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/src/main/java/com/mashibing/jvm/myhotswap/JavaclassExecuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/src/main/java/com/thinkingme/jvm/myhotswap/JavaclassExecuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/DynaProxyHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/DynaProxyHello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestHello.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestInfect.class" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestInfect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/DynaProxyHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/IHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestHello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JVM-master/target/classes/com/mashibing/jvm/TestInfect.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/JVM-master/马士兵教育 java1.8类文件格式第一版.png" beforeDir="false" afterPath="$PROJECT_DIR$/JVM-master/java1.8类文件格式第一版.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/image/System_IO (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/image/System_IO (1).pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/image/System_IO.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/image/System_IO.pos" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/image/pcstat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/NettyClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/NettyIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/OSFileIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketIOPropertites.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreads.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketMultiplexingThreadsV2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/src/main/java/com/bjmashibing/system/io/SocketNIO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/bjmashbing-sysio-1.0-0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ClientReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/EventLoop$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/EventLoop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/EventLoopGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/MyInbound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/NettyClient$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/NettyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/NettyIO$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/NettyIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/NioThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/OSFileIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ServerAcceptr$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ServerAcceptr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ServerBootStrap$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ServerBootStrap$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/ServerBootStrap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketIOPropertites.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketMultiplexingSingleThreadv1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketMultiplexingThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketMultiplexingThreadsV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/classes/com/bjmashibing/system/io/SocketNIO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bjmashbing-sysio/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/DuoyiCode/BigMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/DuoyiCode/BigMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/BottomKInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/BottomKInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/Nixvdui.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/Nixvdui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/Roma.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/Roma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/TopKString.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/TopKString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeCode/Yihuo.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeCode/Yihuo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeTest/Ceng.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeTest/Ceng.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/ShopeeTest/Version.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/ShopeeTest/Version.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/_360笔试/X星人的宝藏.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/_360笔试/X星人的宝藏.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/_360笔试/神枪手.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/_360笔试/神枪手.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/_4399笔试/IPV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/_4399笔试/IPV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/vivo笔试/ThreadPrint.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/vivo笔试/ThreadPrint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/vivo笔试/回文.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/vivo笔试/回文.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/vivo笔试/打印字符串中的对称字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/vivo笔试/打印字符串中的对称字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/vivo笔试/编程依赖问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/vivo笔试/编程依赖问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/伴鱼笔试/压缩字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/伴鱼笔试/压缩字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/伴鱼笔试/特定元素数组排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/伴鱼笔试/特定元素数组排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/声网/LRU.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/声网/LRU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/声网/整数与ip地址转换.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/声网/整数与ip地址转换.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/奇安信/体积最大值.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/奇安信/体积最大值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/奇安信/单车摆放.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/奇安信/单车摆放.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/字节跳动笔试/Monkey.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/字节跳动笔试/Monkey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团笔试/小美中奖啦.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团笔试/小美中奖啦.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团笔试/小美摆积木.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团笔试/小美摆积木.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团笔试/小美斗恶龙.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团笔试/小美斗恶龙.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团笔试/小美记数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团笔试/小美记数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团面试/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团面试/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/美团面试/概率.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/美团面试/概率.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/贝壳笔试/_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/贝壳笔试/_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/贝壳笔试/_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/贝壳笔试/_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/贝壳笔试/_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/贝壳笔试/_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/贝壳笔试/_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/贝壳笔试/_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/跟谁学/基因序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/跟谁学/基因序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/跟谁学/找零钱.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/跟谁学/找零钱.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/跟谁学/账户合并并查集.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/跟谁学/账户合并并查集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/阿里笔试/斜移二叉树.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/阿里笔试/斜移二叉树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian/src/main/java/cn/thinkingme/train/mian/阿里笔试/格子翻转.java" beforeDir="false" afterPath="$PROJECT_DIR$/mian/src/main/java/com/thinkingme/train/mian/阿里笔试/格子翻转.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/CollectionTest/ArrayListAndLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/CollectionTest/ArrayListAndLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/CollectionTest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/CollectionTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/JVM/NameChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/JVM/NameChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/JVM/NameCheckerProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/JVM/NameCheckerProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/JVM/OOMObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/JVM/OOMObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/LCP07.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/LCP07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/SplitIntoFibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/SplitIntoFibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1036逃离大迷宫.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1036逃离大迷宫.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_105.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_105.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1051高度检查器.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1051高度检查器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1089复写零.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1089复写零.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1200最小绝对差.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1200最小绝对差.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1221.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1221.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_138.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_138.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1380矩阵中的幸运数.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1380矩阵中的幸运数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1447/最简分数.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1447/最简分数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1464.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1464.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_146LRU缓存.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_146LRU缓存.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1601最多可达成的换楼请求数目.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1601最多可达成的换楼请求数目.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_162.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_162.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_165比较版本号.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_165比较版本号.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_168.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_168.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_171.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_171.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1711.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1711.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_172阶乘后的零.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_172阶乘后的零.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1833.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1833.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1893.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1893.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1894.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1894.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_1996游戏中弱角色的数量.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_1996游戏中弱角色的数量.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_2006差的绝对值为k的数对数目.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_2006差的绝对值为k的数对数目.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_2007从双倍数组中还原原数组.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_2007从双倍数组中还原原数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_2013检测正方形.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_2013检测正方形.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_2047句子中的有效单词数.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_2047句子中的有效单词数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_218.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_218.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_220存在重复元素3.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_220存在重复元素3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_229.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_229.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_24.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_24.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_25.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_25.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_26.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_275.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_275.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_295.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_295.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_310最小高度树.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_310最小高度树.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_313.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_313.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_318.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_318.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_32.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_32.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_33.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_33.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_34.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_34.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_345.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_345.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_349.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_349.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_35.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_350.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_350.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_352.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_352.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_36.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_37.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_372.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_372.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_38.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_38.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_380O1时间插删除和获取随机元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_380O1时间插删除和获取随机元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_384洗牌算法.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_384洗牌算法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_385迷你语法分析器.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_385迷你语法分析器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_39.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_40.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_407.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_407.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_41.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_414.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_414.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_42.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_42.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_421数组中两个数的最大异或值.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_421数组中两个数的最大异或值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_429N叉树的层序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_429N叉树的层序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_43.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_44.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_44.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_440字典序的第K小数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_440字典序的第K小数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_446.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_446.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_447.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_447.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_45.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_46.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_47.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_48.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_48.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_49.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_49.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_496.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_496.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_50.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_502.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_502.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_508出现次数最多的子树元素和.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_508出现次数最多的子树元素和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_513找树左下角的值.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_513找树左下角的值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_516.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_516.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_51N皇后.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_51N皇后.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_522最长特殊序列II.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_522最长特殊序列II.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_532数组中的kdiff数对.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_532数组中的kdiff数对.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_551.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_551.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_560.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_560.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_575.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_575.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_589N叉树的前序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_589N叉树的前序遍历.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_658.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_658.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_661图片平滑器.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_661图片平滑器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_688骑士在棋盘上的概率.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_688骑士在棋盘上的概率.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_693交替位二进制数.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_693交替位二进制数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_698.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_698.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_704.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_704.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_71.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_71.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_715Range模块.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_715Range模块.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_719找出第K小的数对距离.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_719找出第K小的数对距离.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_743.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_743.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_752.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_752.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_787.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_787.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_796旋转字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_796旋转字符串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_815.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_815.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_847.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_847.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_859.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_859.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_863.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_863.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_868二进制间距.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_868二进制间距.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_881.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_881.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_946.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_946.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_99.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_99.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/_剑指OfferII070排序数组中只出现一次的数字.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/_剑指OfferII070排序数组中只出现一次的数字.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/主要元素.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/主要元素.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指Offer43.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指Offer43.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指Offer53.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指Offer53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指OfferII069.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指OfferII069.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指offer2_58.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指offer2_58.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指offer30.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指offer30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指offer37.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指offer37.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/剑指offer52.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/剑指offer52.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/最小k个数.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/最小k个数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/LeetCode/桶排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/LeetCode/桶排序.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/Steam流学习/成绩平均值.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/Steam流学习/成绩平均值.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/TestCode/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/TestCode/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/TestCode/TestExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/TestCode/TestExtends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/dataStructure/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/dataStructure/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/dataStructure/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/dataStructure/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/dataStructure/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/dataStructure/readMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/代码/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/代码/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Bashuzhupaichegnzuixiaodeshu.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Bashuzhupaichegnzuixiaodeshu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Erweishuzhuzhongdechazhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Erweishuzhuzhongdechazhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Leedcode303.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Leedcode303.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Leetcode1143.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Leetcode1143.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/One2Nprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/One2Nprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/ReceiveRainwater.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/ReceiveRainwater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/Temp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/TheSameArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/TheSameArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/largestRectangleArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/largestRectangleArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/加减乘计算器.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/加减乘计算器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/寻找第K大.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/寻找第K大.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/最长公共前缀.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/最长公共前缀.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/刷题/正则表达式匹配.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/刷题/正则表达式匹配.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_1_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_1_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_2_47.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_2_47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_2_77.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_2_77.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/剑指/_2_86.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/剑指/_2_86.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/_0_1背包.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/动态规划/_0_1背包.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/收益最大问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/动态规划/收益最大问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/最大回文子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/动态规划/最大回文子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/最长公共子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/动态规划/最长公共子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/动态规划/最长括号匹配.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/动态规划/最长括号匹配.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/双指针/链表中倒数第K个结点.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/双指针/链表中倒数第K个结点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/回溯法/复原IP地址.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/回溯法/复原IP地址.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/场景学习/抢红包.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/场景学习/抢红包.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/CompletableFutureStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/CompletableFutureStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/CompletableFutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/CompletableFutureTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/ExchangeStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/ExchangeStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/ForkJoinStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/ForkJoinStudy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/Interrupted.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/Interrupted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/Leecode1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/Leecode1115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/Sleep问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/Sleep问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/ThreadLocalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/ThreadLocalDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/ViolateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/ViolateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/三个queue区别.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/三个queue区别.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/面试题/到点.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/面试题/到点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/面试题/生产者消费者.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/面试题/生产者消费者.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/顺序输出ABC.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/顺序输出ABC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并发/顺序输出方法2.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并发/顺序输出方法2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并查集/亲戚问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并查集/亲戚问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并查集/最长连续子序列.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并查集/最长连续子序列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并查集/朋友圈.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并查集/朋友圈.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/并查集/账户合并并查集.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/并查集/账户合并并查集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/快速幂/快速幂.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/快速幂/快速幂.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/快速幂/矩阵快速幂_斐波那契.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/快速幂/矩阵快速幂_斐波那契.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/排列组合/字符串不重复排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/排列组合/字符串不重复排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/排列组合/排列组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/排列组合/排列组合.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/数据结构/_BitMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/数据结构/_BitMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/树问题/最近公共祖先.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/树问题/最近公共祖先.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/算法基础提升/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/算法基础提升/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/算法基础提升/Floyd.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/算法基础提升/Floyd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/算法基础提升/KMP.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/算法基础提升/KMP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/缓存/Cache.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/缓存/Cache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/表达式问题/真真假假.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/表达式问题/真真假假.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/设计模式/单例模式.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/设计模式/单例模式.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/src/main/java/cn/thinkingme/train/shua/链表/链表相交点.java" beforeDir="false" afterPath="$PROJECT_DIR$/shua/src/main/java/com/thinkingme/train/shua/链表/链表相交点.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/CollectionTest/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/CollectionTest/ArrayListAndLinkList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/CollectionTest/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/NameChecker$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/NameChecker$NameCheckScanner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/NameChecker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/NameCheckerProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/OOMObject$OOMobject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/OOMObject$SynAddRunalbe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/JVM/OOMObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/Copy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/LCP07.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/NestedInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/RangeModule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/RangeModule2$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/RangeModule2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/Solution2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/SplitIntoFibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/SummaryRanges.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_10$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1036逃离大迷宫.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_105.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1051高度检查器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1089复写零.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1200最小绝对差.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1221.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_13$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_13.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_138.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1380矩阵中的幸运数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1447/最简分数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1464.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_146LRU缓存$LRUCache$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_146LRU缓存$LRUCache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_146LRU缓存.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_15.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_16.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1601最多可达成的换楼请求数目.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_162.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_165比较版本号.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_168.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_17.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_171.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1711.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_172阶乘后的零.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_18.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1833.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1893.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1894.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_19.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_1996游戏中弱角色的数量.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_20.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_2006差的绝对值为k的数对数目.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_2007从双倍数组中还原原数组.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_2013检测正方形$DetectSquares.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_2013检测正方形.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_2047句子中的有效单词数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_21.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_218.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_22.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_220存在重复元素3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_229.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_23$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_23.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_24.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_25.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_26.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_27.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_275.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_29.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_295.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_31.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_310最小高度树.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_313.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_318.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_32.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_34.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_345.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_349.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_35.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_350.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_352.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_36.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_372.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_38.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_380O1时间插删除和获取随机元素$RandomizedSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_380O1时间插删除和获取随机元素.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_384洗牌算法$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_384洗牌算法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_385迷你语法分析器$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_385迷你语法分析器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_39.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_40.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_407.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_41.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_414.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_42.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_421数组中两个数的最大异或值$BinTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_421数组中两个数的最大异或值.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_429N叉树的层序遍历$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_429N叉树的层序遍历$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_429N叉树的层序遍历.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_44.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_440字典序的第K小数字$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_440字典序的第K小数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_446.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_447.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_45.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_46.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_48.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_49.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_496.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_50.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_502.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_508出现次数最多的子树元素和.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_513找树左下角的值.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_516.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_51N皇后$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_51N皇后.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_522最长特殊序列II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_532数组中的kdiff数对.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_551.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_560.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_575.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_589N叉树的前序遍历$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_589N叉树的前序遍历.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_658.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_661图片平滑器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_688骑士在棋盘上的概率.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_693交替位二进制数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_698.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_704.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_71.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_715Range模块.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_719找出第K小的数对距离.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_743.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_752.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_787.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_796旋转字符串.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_815.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_847.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_859.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_863.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_868二进制间距.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_881.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_946.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_99.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/_剑指OfferII070排序数组中只出现一次的数字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/主要元素.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指Offer43.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指Offer53.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指OfferII069.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer2_58$MyCalendar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer2_58.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer30$MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer30.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer37.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/剑指offer52.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/最小k个数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/LeetCode/桶排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/Steam流学习/chengji.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/Steam流学习/成绩平均值.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/TestCode/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/TestCode/String.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/TestCode/TestExtends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/TestCode/father.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/TestCode/son.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/dataStructure/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/dataStructure/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/代码/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Bashuzhupaichegnzuixiaodeshu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Erweishuzhuzhongdechazhao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Leedcode303$NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Leedcode303.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Leetcode1143.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/One2Nprint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/ReceiveRainwater.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Sort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/Temp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/TheSameArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/largestRectangleArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/加减乘计算器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/寻找第K大.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/最长公共前缀.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/刷题/正则表达式匹配.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_7$TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_9$CQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_1_9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_2_47.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_2_77.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/剑指/_2_86.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/TimeValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/_0_1背包.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/收益最大问题$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/收益最大问题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/最大回文子串.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/最长公共子序列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/动态规划/最长括号匹配.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/双指针/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/双指针/链表中倒数第K个结点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/回溯法/复原IP地址.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/场景学习/RedPackage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/场景学习/抢红包.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/CompletableFutureStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/CompletableFutureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ExchangeStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Foo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/FooBar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ForkJoinStudy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Interrupted.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Leecode1115.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/NameRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Sleep问题$NumberThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Sleep问题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/SumTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadLocalDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadLocalDemo$A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadLocalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadPoolTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadPoolTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadPoolTest$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ThreadPoolTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/ViolateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/三个queue区别$RejectHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/三个queue区别.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/面试题/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/面试题/到点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/面试题/生产者消费者.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/顺序输出ABC$ThreadA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/顺序输出ABC$ThreadB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/顺序输出ABC$ThreadC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/顺序输出ABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并发/顺序输出方法2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/UnionFind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/亲戚问题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/最长连续子序列$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/最长连续子序列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/朋友圈$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/朋友圈.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/账户合并并查集$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/并查集/账户合并并查集.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/快速幂/快速幂.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/快速幂/矩阵快速幂_斐波那契.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/排列组合/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/排列组合/字符串不重复排列$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/排列组合/字符串不重复排列$Solution3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/排列组合/字符串不重复排列.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/排列组合/排列组合.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/数据结构/_BitMap$MyBitSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/数据结构/_BitMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/树问题/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/树问题/最近公共祖先.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/算法基础提升/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/算法基础提升/Floyd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/算法基础提升/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/缓存/Cache.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/表达式问题/真真假假.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/设计模式/单例模式$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/设计模式/单例模式$SingletonFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/设计模式/单例模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/链表/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/target/classes/cn/thinkingme/train/shua/链表/链表相交点.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Final测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Final测试.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/thinkingme/train/test/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/cn/thinkingme/train/test/A.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/target/classes/cn/thinkingme/train/test/Final测试.class" beforeDir="false" afterPath="$PROJECT_DIR$/test/target/classes/cn/thinkingme/train/test/Final测试.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -928,7 +137,7 @@
       <recent name="cn.thinkingme.train.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.真真假假">
+  <component name="RunManager" selected="Application.T">
     <configuration name="真真假假" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkingme.train.shua.表达式问题.真真假假" />
       <module name="shua" />
@@ -968,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketMultiplexingThreadsV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thinkingme.system.io.SocketMultiplexingThreadsV2" />
-      <module name="sysio" />
+    <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingme.jvm.c0_basic.T" />
+      <module name="JVM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thinkingme.system.io.*" />
+          <option name="PATTERN" value="com.thinkingme.jvm.c0_basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -995,19 +204,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SocketMultiplexingThreadsV2" />
       <item itemvalue="Application.T01_HelloVolatile" />
       <item itemvalue="Application.A" />
       <item itemvalue="Application.OOMObject" />
       <item itemvalue="Application.真真假假" />
+      <item itemvalue="Application.T" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T" />
         <item itemvalue="Application.真真假假" />
         <item itemvalue="Application.OOMObject" />
         <item itemvalue="Application.A" />
         <item itemvalue="Application.T01_HelloVolatile" />
-        <item itemvalue="Application.SocketMultiplexingThreadsV2" />
       </list>
     </recent_temporary>
   </component>
@@ -1108,7 +317,7 @@
       <workItem from="1678070254160" duration="7634000" />
       <workItem from="1678107203849" duration="3215000" />
       <workItem from="1678176713280" duration="1622000" />
-      <workItem from="1678274091358" duration="2621000" />
+      <workItem from="1678274091358" duration="3232000" />
     </task>
     <task id="LOCAL-00001" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
       <created>1668744682998</created>
@@ -1208,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668750649712</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="项目格式修改">
+      <created>1678277023679</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678277023679</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

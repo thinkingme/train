@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mashibing</groupId>
+  <groupId>com.thinkingme</groupId>
   <artifactId>jvm</artifactId>
   <version>1.0-0.1</version>
   <name>JVM-master</name>
