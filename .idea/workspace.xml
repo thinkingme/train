@@ -5,22 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a50f25b8-a266-4310-b8ef-6d133eae8cc6" name="Changes" comment="添加java agent测试代码&#10;诸如arthas，idea破解都是用这种方式">
-      <change afterPath="$PROJECT_DIR$/agent-test/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-test/runtime-agent/src/main/java/com/thinking/runtimeAgent/RunTimeAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-test/runtime-agent/src/main/java/com/thinking/runtimeAgent/RunTimeTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-test/target-app/src/main/java/com/thinkingme/targetApp/APPMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agent-test/target-app/src/main/java/com/thinkingme/targetApp/AppInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/forkJoinPool/ForkJoinPoolTest01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shua/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shua/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T01_MyExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T01_MyExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T02_ExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T02_ExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T03_Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T03_Callable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T04_Executors.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T04_Executors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T05_00_HelloThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T05_00_HelloThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T05_ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T05_ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T06_00_Future.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T06_00_Future.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T06_01_CompletableFuture.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T06_01_CompletableFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T07_SingleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T07_SingleThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T08_CachedPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T08_CachedPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T09_FixedThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T09_FixedThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T10_ScheduledPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T10_ScheduledPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T11_WorkStealingPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T11_WorkStealingPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T12_ForkJoinPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/forkJoinPool/T12_ForkJoinPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T13_ParallelStreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T13_ParallelStreamAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/T14_MyRejectedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/T14_MyRejectedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/ThreadPoolExecutor源码解析.md" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/ThreadPoolExecutor源码解析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/c_026_01_ThreadPool/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JUC-master/src/main/java/com/thinkingme/juc/ThreadPool/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agent-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/agent-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/AffiliateTransactionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/AffiliateTransactionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Final测试.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/Final测试.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/GetTimeConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/GetTimeConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/InitDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/InitDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/InitGetThisDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/InitGetThisDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Jvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/Jvm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Reflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/Reflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/TeacherMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/TeacherMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/TestExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/TestExtends.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/TestHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/TestHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/_编码.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/_编码.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/AESUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/aes/AESUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/Hs.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/aes/Hs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/aes/ListResultAES.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/aes/ListResultAES.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/enumTest/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/enumTest/Operator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/fuzhi.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/fuzhi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/小写排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/小写排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/src/main/java/cn/thinkingme/train/test/归并JSON字符串.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/src/main/java/com/thinkingme/train/test/归并JSON字符串.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,8 +92,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../ProgramFiles/Apache/maven/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\ProgramFiles\Apache\maven\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="localRepository" value="C:\My Space\Work Soft\Soft Project Package Management\maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Work Soft/Soft Project Package Management/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="C:\My Space\Work Soft\Soft Project Package Management\maven\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -61,11 +107,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitRepository/PC/xiamenTrust/crm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,7 +127,13 @@
       <recent name="cn.thinkingme.train.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.APPMain">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn -U clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ForkJoinPoolTest01">
     <configuration name="真真假假" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkingme.train.shua.表达式问题.真真假假" />
       <module name="shua" />
@@ -121,6 +174,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForkJoinPoolTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thinkingme.juc.ThreadPool.forkJoinPool.ForkJoinPoolTest01" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thinkingme.juc.ThreadPool.forkJoinPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="T" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.thinkingme.jvm.c0_basic.T" />
       <module name="JVM" />
@@ -139,9 +205,11 @@
       <item itemvalue="Application.真真假假" />
       <item itemvalue="Application.T" />
       <item itemvalue="Application.APPMain" />
+      <item itemvalue="Application.ForkJoinPoolTest01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForkJoinPoolTest01" />
         <item itemvalue="Application.APPMain" />
         <item itemvalue="Application.T" />
         <item itemvalue="Application.真真假假" />
@@ -247,6 +315,8 @@
       <workItem from="1678107203849" duration="3215000" />
       <workItem from="1678176713280" duration="1622000" />
       <workItem from="1678274091358" duration="7204000" />
+      <workItem from="1693968773254" duration="605000" />
+      <workItem from="1693969406860" duration="1526000" />
     </task>
     <task id="LOCAL-00001" summary="高并发，模拟工厂为何用while循环&#10;中断，在那些api中可以发生，又在哪里可以用上">
       <created>1668744682998</created>

@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JVM" />
+        <module name="jvm" />
         <module name="shua" />
         <module name="test" />
         <module name="utils" />

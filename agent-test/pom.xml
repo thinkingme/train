@@ -32,7 +32,7 @@
             <artifactId>tools</artifactId>
             <version>1.8</version>
             <scope>system</scope>
-            <systemPath>D:/ProgramFiles/ProgramingLanguage/Java/jdk1.8.0_131/lib/tools.jar</systemPath>
+            <systemPath>C:/My Space/Work Soft/Programing Environment/Java/jdk1.8.0_131/lib/tools.jar</systemPath>
         </dependency>
 
     </dependencies>
