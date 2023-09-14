@@ -47,14 +47,15 @@ public class ForkJoinPoolTest01 {
         long start = System.currentTimeMillis();
 
         int count = 8;
+        int p = 1000;
         ExecutorService threadPool = Executors.newFixedThreadPool(count);
         List<Future<Long>> list = new ArrayList<>();
-        for (int i = 0; i < count; i++) {
+        for (int i = 0; i < p; i++) {
             int num = i;
             // 分段提交任务
             Future<Long> future = threadPool.submit(() -> {
                 long sum = 0;
-                for (int j = arr.length / count * num; j < (arr.length / count * (num + 1)); j++) {
+                for (int j = arr.length / p * num; j < (arr.length / p * (num + 1)); j++) {
                     try {
                         // 模拟耗时
                         sum += (arr[j]/3*3/3*3/3*3/3*3/3*3);
