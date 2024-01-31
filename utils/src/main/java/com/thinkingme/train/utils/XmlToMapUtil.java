@@ -1,12 +1,4 @@
-package com.thinkingme.train.utils; /**
- * @ProjectName: 题目代码
- * @Package: test
- * @ClassName: XmlConverUtil
- * @Author: huige
- * @Description:
- * @Date: 2021/11/10 17:09
- * @Version: 1.0
- */
+package com.thinkingme.train.utils;
 
 import org.dom4j.*;
 import org.dom4j.io.OutputFormat;

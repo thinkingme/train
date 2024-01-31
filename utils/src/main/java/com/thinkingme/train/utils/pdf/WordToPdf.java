@@ -8,6 +8,8 @@ package com.thinkingme.train.utils.pdf;
  * @author: huige
  * @date: 14/12/2023 下午1:50
  */
+import com.aspose.words.License;
+import com.aspose.words.PdfSaveOptions;
 import com.itextpdf.text.BaseColor;
 import com.itextpdf.text.Font;
 import com.itextpdf.text.FontProvider;
@@ -36,14 +38,64 @@ import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.nio.charset.Charset;
+import java.util.UUID;
 
 public class WordToPdf {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         String inputFile = "C:\\Users\\huige\\Desktop\\厦门服务信托对外接口文档.docx";
-        String outputFile = "C:\\Users\\huige\\Desktop\\test.html";
+        String outputFile = "C:\\Users\\huige\\Desktop\\test.pdf";
         String imageDir = "C:\\Users\\huige\\Desktop\\";
-        docx2Html(inputFile, outputFile,imageDir);
+        getLicense();
+        doc2pdf(inputFile, outputFile);
     }
+
+    /**
+     * 使用aspose-words工具将doc、docx文件转成pdf
+     *
+     * @exception 说明 ：1、RN组件无法正常打开word文档，因此需要转换成pdf
+     *               2、当下载word文档时会在文件名后加.pdf再传给后端
+     *               3、只有文件名如：1.doc.pdf和2.docx.pdf才会被转换成pdf，1.doc和2.docx不会
+     *
+     * @param sourcePath 源文件地址
+     * @param pdfPath    转换后的pdf文件保存地址
+     * @return String 返回源地址或者转换后的地址
+     */
+    public static void doc2pdf(String inputFile, String sourcePath) throws Exception {
+        //加载Word文档
+        com.aspose.words.Document doc = new com.aspose.words.Document(inputFile);
+//创建 PDF 保存选项对象
+        PdfSaveOptions saveOptions = new PdfSaveOptions();
+
+//将文档另存为 PDF
+        doc.save(sourcePath, saveOptions);
+
+    }
+
+    /**
+     * 获取aspose-words授权
+     *
+     * @return
+     */
+    public static boolean getLicense() {
+        boolean result = false;
+        try {
+//          InputStream is = this.getClass().getResourceAsStream("license.xml");// 获取当前类所在package下的文件
+            // 用于注册的配置(直接获取xml文件在fsdp有问题，因此直接用字符串再转文件流)
+            String license = "<License>\r\n" + "  <Data>\r\n" + "    <Products>\r\n" + "      <Product>Aspose.Total for Java</Product>\r\n" + "      <Product>Aspose.Words for Java</Product>\r\n" + "    </Products>\r\n" + "    <EditionType>Enterprise</EditionType>\r\n"
+                    + "    <SubscriptionExpiry>20991231</SubscriptionExpiry>\r\n" + "    <LicenseExpiry>20991231</LicenseExpiry>\r\n" + "    <SerialNumber>23dcc79f-44ec-4a23-be3a-03c1632404e9</SerialNumber>\r\n" + "  </Data>\r\n"
+                    + "  <Signature>0nRuwNEddXwLfXB7pw66G71MS93gW8mNzJ7vuh3Sf4VAEOBfpxtHLCotymv1PoeukxYe31K441Ivq0Pkvx1yZZG4O1KCv3Omdbs7uqzUB4xXHlOub4VsTODzDJ5MWHqlRCB1HHcGjlyT2sVGiovLt0Grvqw5+QXBuinoBY0suX0=</Signature>\r\n" + "</License>\r\n" + "";
+
+            InputStream is = new ByteArrayInputStream(license.getBytes());// 转成文件流
+            License aposeLic = new License();
+            aposeLic.setLicense(is);
+            result = true;
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return result;
+    }
+
     public static void wordToPdf(String inputFile, String outputFile) throws IOException {
         FileInputStream fileInputStream = null;
         FileOutputStream  fileOutputStream=null;
